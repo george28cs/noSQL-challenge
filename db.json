@@ -1,0 +1,26 @@
+{
+    "_id": {
+        "$oid": "5f85c16f1658ce2d2da39e34"
+    },
+    "nombre_alumno": "Alumno 1",
+    "edad": 16,
+    "examenes": [{
+        "_id": {
+            "$oid": "5f85c3011658ce2d2da39e36"
+        },
+        "nombre": "estadística",
+        "calificacion": 85
+    }, {
+        "_id": {
+            "$oid": "5f85c4ad1658ce2d2da39e3f"
+        },
+        "nombre": "conjuntos",
+        "calificacion": 90
+    }, {
+        "_id": {
+            "$oid": "5f85c4cf1658ce2d2da39e40"
+        },
+        "nombre": "ecuaciones",
+        "calificacion": 95
+    }]
+}
