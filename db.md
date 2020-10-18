@@ -37,14 +37,14 @@ db.math_competition.aggregate([
            "$addFields": { 
                "promedio": {
                    "$divide": [
-                       { // expression returns total
+                       { // Suma las calificaciones
                            "$reduce": {
                                "input": "$examenes",
                                "initialValue": 0,
                                "in": { "$add": ["$$value", "$$this.calificacion"] }
                            }
                        },
-                       { // expression returns ratings count
+                       { // cuenta el total elementos (para calcular promedio)
                            "$cond": [
                                { "$ne": [ { "$size": "$examenes" }, 0 ] },
                                { "$size": "$examenes" }, 
