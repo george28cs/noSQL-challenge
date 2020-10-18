@@ -1,6 +1,7 @@
 # Reto de BD noSQL (MongoDB)
 
 ## Estructura del documento.
+```json
 {
     "_id": {
         "$oid": "5f85c16f1658ce2d2da39e34"
@@ -27,9 +28,10 @@
         "calificacion": 95
     }]
 }
-
+```
 ## Query para calcular promedio
 
+```json
 db.math_competition.aggregate([
        { 
            "$addFields": { 
@@ -54,3 +56,4 @@ db.math_competition.aggregate([
            }
        }
 ])
+```
