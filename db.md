@@ -57,3 +57,28 @@ db.math_competition.aggregate([
        }
 ])
 ```
+## Resultado de la consulta:
+```json
+[ { _id: 
+     { _bsontype: 'ObjectID',
+       id: <Buffer 5f 85 c1 6f 16 58 ce 2d 2d a3 9e 34> },
+    nombre_alumno: 'Alumno 1',
+    edad: 16,
+    examenes: 
+     [ { _id: 
+          { _bsontype: 'ObjectID',
+            id: <Buffer 5f 85 c3 01 16 58 ce 2d 2d a3 9e 36> },
+         nombre: 'estadística',
+         calificacion: 85 },
+       { _id: 
+          { _bsontype: 'ObjectID',
+            id: <Buffer 5f 85 c4 ad 16 58 ce 2d 2d a3 9e 3f> },
+         nombre: 'conjuntos',
+         calificacion: 90 },
+       { _id: 
+          { _bsontype: 'ObjectID',
+            id: <Buffer 5f 85 c4 cf 16 58 ce 2d 2d a3 9e 40> },
+         nombre: 'ecuaciones',
+         calificacion: 95 } ],
+    promedio: 90 } ]
+```
