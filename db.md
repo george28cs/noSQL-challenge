@@ -82,3 +82,4 @@ db.math_competition.aggregate([
          calificacion: 95 } ],
     promedio: 90 } ]
 ```
+El promedio se calculará para cada uno de los elementos insertados en la colección.
