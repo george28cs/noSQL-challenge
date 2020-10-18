@@ -58,7 +58,7 @@ db.math_competition.aggregate([
 ])
 ```
 ## Resultado de la consulta:
-```json
+```
 [ { _id: 
      { _bsontype: 'ObjectID',
        id: <Buffer 5f 85 c1 6f 16 58 ce 2d 2d a3 9e 34> },
